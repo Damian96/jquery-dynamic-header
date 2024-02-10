@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 10px 5vw;
+
+    transition: all .3s ease-out;
+}
+
+.header-logo {
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: auto;
+}
+
+section {
+    height: 100vh;
+}
+
+.landing {
+    background-color: aqua;
+    height: calc(100vh - var(--header-height));
+}
+
+header.small {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+header.small .header-logo {
+    height: 50px;
+}

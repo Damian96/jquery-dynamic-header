@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Plugin - Dynamic Header</title>
+    <script src="./../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./../src/jquery.dynamic-header.js"></script>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+
+<body>
+    <header class="header">
+        <img class="header-logo" src="assets/img/husky.jpg" alt="logo" width="auto" height="100px" />
+    </header>
+
+    <main class="main">
+        <section class="landing"></section>
+
+        <section class="content-2"></section>
+        <section class="content-3"></section>
+    </main>
+
+    <script type="text/javascript" defer>
+        jQuery('header').dynamicHeader({});
+    </script>
+</body>
+
+</html>
